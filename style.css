@@ -1,0 +1,50 @@
+#clock{
+    position: relative;
+    background-color: red;
+    height:40vw;
+    width:40vw;
+    background-image: url("blank-clock-dial-no-hands-ready-your-graphic-modification-50876330.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border: 2px solid green;
+    margin:auto; /*centre*/
+}
+
+#hour, #min, #sec, #circle{
+    position:absolute;
+    background:black;
+    border-radius:10px;
+}
+#hour{
+    height: 21%;
+    width: 1.1%;
+    top: 29.5%;
+    left: 50%;
+    opacity: 0.8;
+    transform-origin: bottom;
+}
+#min{
+    height: 29%;
+    width: 1%;
+    top: 21%;
+    left: 50%;
+    opacity:0.8;
+    transform-origin: bottom;
+}
+#sec{
+    height: 24%;
+    width: 1%;
+    top: 26.5%;
+    left: 50%;
+    opacity:0.8;
+    transform-origin: bottom;
+}
+/*#circle{
+    height:18px;
+    width:18px;
+    border-radius: 50%;
+    background-color: black;
+    top:49.5%;
+    left:49%;
+opacity:0.9
+}
